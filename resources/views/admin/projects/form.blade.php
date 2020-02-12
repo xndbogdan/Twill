@@ -7,4 +7,17 @@
         'translated' => true,
         'maxlength' => 100
     ])
+   @formField('input', [
+    'name' => 'url',
+    'label' => 'URL',
+    'translated' => true,
+    'note'       => 'Please provide the full URL'
+    ])
+
+    @formField('medias', [
+    'name' => 'cover',
+    'label' => 'Cover image',
+    'note'       => 'Image file'
+    ])
+
 @stop

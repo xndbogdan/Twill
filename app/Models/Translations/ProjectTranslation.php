@@ -11,5 +11,6 @@ class ProjectTranslation extends Model
         'description',
         'active',
         'locale',
+        'url'
     ];
 }
