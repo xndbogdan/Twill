@@ -1,5 +1,10 @@
 @extends('layouts.app')
 @section('content')
+    <div class="mt-12 flex flex-wrap">
+        @foreach($projects as $project)
+            {{$project->title}}
+        @endforeach
+    </div>
     <div class="md:flex container border p-4">
         <div class="md:flex-shrink-0">
             <img class="rounded-lg md:w-56" src="https://images.unsplash.com/photo-1556740738-b6a63e27c4df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=448&q=80" alt="Woman paying for a purchase">

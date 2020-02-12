@@ -11,4 +11,4 @@
 |
 */
 
-Route::get('/', 'PagesController@landing');
+Route::get('/', 'PagesController@projects');
