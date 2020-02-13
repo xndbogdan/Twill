@@ -12,3 +12,6 @@
         </div>
     </div>
 </nav>
+<nav id="pop_nav" class="hidden fixed top-0 w-full h-full" style="background-color:rgba(0,0,0,0.7);">
+
+</nav>

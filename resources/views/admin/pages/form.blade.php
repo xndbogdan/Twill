@@ -25,5 +25,5 @@
     'translated' => true,
     'note'       => 'Please select this only if you want the page to appear in the navbar'
     ])
-
+    @formField('block_editor')
 @stop
